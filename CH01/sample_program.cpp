@@ -1,4 +1,7 @@
-//
-// Created by User on 10/9/2021.
-//
+#include<iostream>
+using namespace std;
 
+int main(){
+    cout<<"Enjoy yourself with C++!"<<endl;
+    return 0;
+}
