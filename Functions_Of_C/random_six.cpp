@@ -1,0 +1,27 @@
+/******************************
+    Generate 20 random number
+    between 1 and 6
+*******************************/
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    
+   
+    
+    for(int i=1;i<=20;i++){
+        
+        printf("%10d",1+rand()%6);
+        
+        // when the counter is divisible by five
+        if(i%5==0){
+            printf("\n");
+            
+        }
+        
+    }
+    
+    return 0;
+    
+}
